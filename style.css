@@ -37,7 +37,7 @@
 .task-section__label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .wrapper-task {
@@ -136,7 +136,7 @@
 }
 
 .task-section__item >    .input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .button.task-section__button-delete .button__img {
@@ -151,18 +151,18 @@
 
 /* Completed */
 .task-section__list.task-section__list-completed .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-section__list .task-section__item .input[type=text] {
-  display: none
+  display: none;
 }
 
 .task-section__list .task-section__item.task-section__item_edit-mode .input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-section__list .task-section__item.task-section__item_edit-mode .label {
