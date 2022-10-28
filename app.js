@@ -28,23 +28,26 @@ var createNewTaskElement=function(taskString){
     //button.edit
     var editButton=document.createElement("button");//edit button
 
+    listItem.className = "task-section__item";
+
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
-    label.className='task-section__label';
+    label.className='task-section__label label';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
     editInput.type="text";
-    editInput.className="task-section__input";
+    editInput.className="task-section__input input";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-    editButton.className="task-section__button-edit";
+    editButton.className="task-section__button-edit button";
 
-    deleteButton.className="task-section__button-delete";
+    deleteButton.className="task-section__button-delete button";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.className="button__img"
     deleteButton.appendChild(deleteButtonImg);
 
 
